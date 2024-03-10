@@ -1,3 +1,24 @@
+Pseudocode:
+Procedimiento qSort(arr, lo, hi)
+    Si hi <= lo entonces
+        Retornar
+    lt, i, gt := lo, lo + 1, hi
+    pivot := arr[lo]
+    Mientras i <= gt Hacer
+        Si arr[i] < pivot Entonces
+            Intercambiar(arr[lt], arr[i])
+            lt := lt + 1
+            i := i + 1
+        Sino Si arr[i] > pivot Entonces
+            Intercambiar(arr[gt], arr[i])
+            gt := gt - 1
+        Sino
+            i := i + 1
+    llamar qSort(arr, lo, lt - 1)
+    llamar qSort(arr, gt + 1, hi)
+    Retornar arr
+Fin Procedimiento
+
 # la función recibe 3 argumentos:
 # arr: arrreglo conteniendo los ementos a ordenar
 # lo: el índice del primer elemento del rango a ordenar
