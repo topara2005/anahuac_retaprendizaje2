@@ -1,2 +1,4 @@
 # anahuac_retaprendizaje2
-Codigo apra el reto de aprendizaje 2 en diplomado universidad anahuar
+Código para el reto de aprendizaje 2 en diplomado universidad anahuac
+El presente código se generó usando jupiter notebooc. Por eso la configuración apra matplot lib
+
